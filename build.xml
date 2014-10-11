@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ This project is using the Contao Community Alliance Build System (CCABS)
+
+ For documentation visit:
+   https://github.com/contao-community-alliance/build-system
+
+-->
+<project name="build system all tasks" default="build">
+    <import file="vendor/contao-community-alliance/build-system/ccabs.main.xml" />
+
+    <!-- as we are a meta package, we clean the base tasks due to not having any php files etc to scan. -->
+
+    <target
+            name="verify"
+            depends="composer-validate"
+            description="Verify the quality of the code"
+            />
+
+    <target
+            name="analyze"
+            depends="branch-alias-validation, travis-configuration-check"
+            description="Do static analysis of the code"
+            />
+</project>

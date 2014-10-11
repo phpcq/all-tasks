@@ -1,0 +1,46 @@
+{
+    "name": "contao-community-alliance/build-system-all-tasks",
+    "description": "Meta package to enable all tasks",
+    "license": "MIT",
+    "type": "metapackage",
+    "authors": [
+        {
+            "name":"Christian Schiffler",
+            "email":"c.schiffler@cyberspectrum.de",
+            "homepage":"http://www.cyberspectrum.de",
+            "role":"Developer"
+        },
+        {
+            "name":"Tristan Lins",
+            "email":"tristan.lins@bit3.de",
+            "homepage":"http://bit3.de",
+            "role":"Developer"
+        }
+    ],
+    "support":{
+        "issues":"https://github.com/contao-community-alliance/build-system-all-tasks/issues",
+        "irc":"irc://irc.freenode.org/contao.dev",
+        "source":"https://github.com/contao-community-alliance/build-system-all-tasks"
+    },
+    "require": {
+        "contao-community-alliance/build-system": "~1.0",
+        "contao-community-alliance/build-system-tool-branch-alias-validation": "~1.0",
+        "contao-community-alliance/build-system-tool-travis-configuration-check": "~1.0",
+        "contao-community-alliance/build-system-repository-git": "~1.0",
+        "squizlabs/php_codesniffer": "~1.0",
+        "pdepend/pdepend": "2.0.*",
+        "phpunit/phpunit": "~3.7",
+        "sebastian/phpcpd": "~1.4",
+        "phploc/phploc": "~2.0",
+        "phpmd/phpmd": "~2.0"
+    },
+    "require-dev": {
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    },
+    "prefer-stable": true,
+    "minimum-stability": "dev"
+}
