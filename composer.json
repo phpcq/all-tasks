@@ -1,6 +1,6 @@
 {
-    "name": "contao-community-alliance/build-system-all-tasks",
-    "description": "Meta package to enable all tasks",
+    "name": "phpcq/all-tasks",
+    "description": "Meta package to enable all tasks of the PHP code quality project",
     "license": "MIT",
     "type": "metapackage",
     "authors": [
@@ -18,17 +18,16 @@
         }
     ],
     "support":{
-        "issues":"https://github.com/contao-community-alliance/build-system-all-tasks/issues",
-        "irc":"irc://irc.freenode.org/contao.dev",
-        "source":"https://github.com/contao-community-alliance/build-system-all-tasks"
+        "issues":"https://github.com/phpcq/all-tasks/issues",
+        "source":"https://github.com/phpcq/all-tasks"
     },
     "require": {
-        "contao-community-alliance/build-system": "~1.0",
-        "contao-community-alliance/build-system-tool-author-validation": "~1.0",
-        "contao-community-alliance/build-system-tool-autoloading-validation": "~1.0",
-        "contao-community-alliance/build-system-tool-branch-alias-validation": "~1.0",
-        "contao-community-alliance/build-system-tool-travis-configuration-check": "~1.0",
-        "contao-community-alliance/build-system-repository-git": "~1.0",
+        "phpcq/phpcq": "~1.0",
+        "phpcq/tool-author-validation": "~1.0",
+        "phpcq/tool-autoloading-validation": "~1.0",
+        "phpcq/tool-branch-alias-validation": "~1.0",
+        "phpcq/tool-travis-configuration-check": "~1.0",
+        "bit3/git-php": "~1.0",
         "squizlabs/php_codesniffer": "~1.0",
         "pdepend/pdepend": "2.0.*",
         "phpunit/phpunit": "~3.7",
