@@ -1,6 +1,6 @@
 {
-    "name": "contao-community-alliance/build-system-all-tasks",
-    "description": "Meta package to enable all tasks",
+    "name": "phpcq/all-tasks",
+    "description": "Meta package to enable all tasks of the PHP code quality project",
     "license": "MIT",
     "type": "metapackage",
     "authors": [
@@ -12,23 +12,24 @@
         },
         {
             "name":"Tristan Lins",
-            "email":"tristan.lins@bit3.de",
-            "homepage":"http://bit3.de",
+            "email":"tristan@lins.io",
+            "homepage":"https://tristan.lins.io",
             "role":"Developer"
         }
     ],
     "support":{
-        "issues":"https://github.com/contao-community-alliance/build-system-all-tasks/issues",
-        "irc":"irc://irc.freenode.org/contao.dev",
-        "source":"https://github.com/contao-community-alliance/build-system-all-tasks"
+        "issues":"https://github.com/phpcq/all-tasks/issues",
+        "source":"https://github.com/phpcq/all-tasks",
+        "irc": "irc://irc.freenode.org/phpcq"
     },
     "require": {
-        "contao-community-alliance/build-system": "~1.0",
-        "contao-community-alliance/build-system-tool-author-validation": "~1.0",
-        "contao-community-alliance/build-system-tool-autoloading-validation": "~1.0",
-        "contao-community-alliance/build-system-tool-branch-alias-validation": "~1.0",
-        "contao-community-alliance/build-system-tool-travis-configuration-check": "~1.0",
-        "contao-community-alliance/build-system-repository-git": "~1.0",
+        "phpcq/phpcq": "~1.0",
+        "phpcq/author-validation": "~1.0",
+        "phpcq/autoload-validation": "~1.0",
+        "phpcq/branch-alias-validation": "~1.0",
+        "phpcq/coding-standard": "~1.0",
+        "phpcq/travis-configuration-check": "~1.0",
+        "bit3/git-php": "~1.0",
         "squizlabs/php_codesniffer": "~1.0",
         "pdepend/pdepend": "2.0.*",
         "phpunit/phpunit": "~3.7",
@@ -40,7 +41,7 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "1.0.x-dev"
+            "dev-develop": "1.x-dev"
         }
     },
     "prefer-stable": true,
