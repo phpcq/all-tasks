@@ -27,6 +27,7 @@
         "phpcq/author-validation": "~1.0",
         "phpcq/autoload-validation": "~1.0",
         "phpcq/branch-alias-validation": "~1.0",
+        "phpcq/coding-standard": "~1.0",
         "phpcq/travis-configuration-check": "~1.0",
         "bit3/git-php": "~1.0",
         "squizlabs/php_codesniffer": "~1.0",
