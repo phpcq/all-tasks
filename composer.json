@@ -19,7 +19,8 @@
     ],
     "support":{
         "issues":"https://github.com/phpcq/all-tasks/issues",
-        "source":"https://github.com/phpcq/all-tasks"
+        "source":"https://github.com/phpcq/all-tasks",
+        "irc": "irc://irc.freenode.org/phpcq"
     },
     "require": {
         "phpcq/phpcq": "~1.0",
