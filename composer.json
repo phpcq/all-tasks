@@ -24,16 +24,16 @@
     },
     "require": {
         "phpcq/phpcq": "~1.0",
-        "phpcq/author-validation": "~1.0",
+        "phpcq/author-validation": "~1.1",
         "phpcq/autoload-validation": "~1.0",
         "phpcq/branch-alias-validation": "~1.0",
         "phpcq/coding-standard": "~1.0",
         "phpcq/travis-configuration-check": "~1.0",
-        "pdepend/pdepend": "2.0.*",
-        "phpunit/phpunit": "~3.7",
+        "pdepend/pdepend": "~2.1",
+        "phpunit/phpunit": "~4.7",
         "sebastian/phpcpd": "~1.4",
-        "phploc/phploc": "~2.0",
-        "phpmd/phpmd": "~2.0"
+        "phploc/phploc": "~2.1",
+        "phpmd/phpmd": "~2.2"
     },
     "extra": {
         "branch-alias": {
