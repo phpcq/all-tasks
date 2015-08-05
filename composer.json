@@ -27,7 +27,7 @@
         "phpcq/author-validation": "~1.1",
         "phpcq/autoload-validation": "~1.0",
         "phpcq/branch-alias-validation": "~1.0",
-        "phpcq/coding-standard": "~1.0",
+        "phpcq/coding-standard": "~2.0",
         "phpcq/travis-configuration-check": "~1.0",
         "pdepend/pdepend": "~2.1",
         "phpunit/phpunit": "~4.7",
