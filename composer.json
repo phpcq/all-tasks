@@ -29,15 +29,11 @@
         "phpcq/branch-alias-validation": "~1.0",
         "phpcq/coding-standard": "~1.0",
         "phpcq/travis-configuration-check": "~1.0",
-        "bit3/git-php": "~1.0",
-        "squizlabs/php_codesniffer": "~1.0",
         "pdepend/pdepend": "2.0.*",
         "phpunit/phpunit": "~3.7",
         "sebastian/phpcpd": "~1.4",
         "phploc/phploc": "~2.0",
         "phpmd/phpmd": "~2.0"
-    },
-    "require-dev": {
     },
     "extra": {
         "branch-alias": {
