@@ -25,7 +25,7 @@
     "require": {
         "phpcq/phpcq": "~1.0",
         "phpcq/author-validation": "~1.1",
-        "phpcq/autoload-validation": "~1.0",
+        "phpcq/autoload-validation": "~1.1",
         "phpcq/branch-alias-validation": "~1.0",
         "phpcq/coding-standard": "~2.0",
         "phpcq/travis-configuration-check": "~1.0",
