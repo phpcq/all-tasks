@@ -23,25 +23,23 @@
         "irc": "irc://irc.freenode.org/phpcq"
     },
     "require": {
-        "phpcq/phpcq": "~1.0",
-        "phpcq/author-validation": "~1.0",
-        "phpcq/autoload-validation": "~1.0",
-        "phpcq/branch-alias-validation": "~1.0",
-        "phpcq/coding-standard": "~1.0",
-        "phpcq/travis-configuration-check": "~1.0",
-        "bit3/git-php": "~1.0",
-        "squizlabs/php_codesniffer": "~1.0",
-        "pdepend/pdepend": "2.0.*",
-        "phpunit/phpunit": "~3.7",
+        "phpcq/phpcq": "~1.1",
+        "phpcq/author-validation": "~1.1",
+        "phpcq/autoload-validation": "~1.1",
+        "phpcq/branch-alias-validation": "~1.1",
+        "phpcq/coding-standard": "~2.0",
+        "phpcq/travis-configuration-check": "~1.1",
+        "pdepend/pdepend": "~2.1",
+        "phpunit/phpunit": "~4.7",
         "sebastian/phpcpd": "~1.4",
-        "phploc/phploc": "~2.0",
-        "phpmd/phpmd": "~2.0"
-    },
-    "require-dev": {
+        "phploc/phploc": "~2.1",
+        "phpmd/phpmd": "~2.2",
+        "phpspec/phpspec": "~2.0"
     },
     "extra": {
         "branch-alias": {
-            "dev-develop": "1.x-dev"
+            "dev-master": "1.1.x-dev",
+            "dev-develop": "1.2.x-dev"
         }
     },
     "prefer-stable": true,
