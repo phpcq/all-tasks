@@ -23,12 +23,12 @@
         "irc": "irc://irc.freenode.org/phpcq"
     },
     "require": {
-        "phpcq/phpcq": "~1.0",
+        "phpcq/phpcq": "~1.1",
         "phpcq/author-validation": "~1.1",
         "phpcq/autoload-validation": "~1.1",
-        "phpcq/branch-alias-validation": "~1.0",
+        "phpcq/branch-alias-validation": "~1.1",
         "phpcq/coding-standard": "~2.0",
-        "phpcq/travis-configuration-check": "~1.0",
+        "phpcq/travis-configuration-check": "~1.1",
         "pdepend/pdepend": "~2.1",
         "phpunit/phpunit": "~4.7",
         "sebastian/phpcpd": "~1.4",
