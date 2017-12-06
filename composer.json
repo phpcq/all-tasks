@@ -23,6 +23,7 @@
         "irc": "irc://irc.freenode.org/phpcq"
     },
     "require": {
+        "php": "^5.4 | ^7.0",
         "phpcq/phpcq": "^1.1",
         "phpcq/author-validation": "^1.1",
         "phpcq/autoload-validation": "^1.1",
