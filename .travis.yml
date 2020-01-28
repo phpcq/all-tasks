@@ -25,6 +25,10 @@ before_script:
 
 script: ant -keep-going
 
+jobs:
+  allow_failures:
+    - php: "nightly"
+
 # Hack to make things work again - we can not use a shallow repository.
 git:
   depth: 2147483647
