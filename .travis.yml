@@ -12,22 +12,18 @@ php:
   - "7.3"
   - "7.2"
   - "7.1"
-  - "7.0"
   - "5.6"
-  - "nightly"
 
 sudo: false
 
-before_script:
+before_install:
   - echo "memory_limit=-1" >> ~/.phpenv/versions/$(phpenv version-name)/etc/conf.d/travis.ini
+
+install:
   - travis_retry composer self-update && composer --version
   - travis_retry composer update --prefer-dist --no-interaction
 
 script: ant -keep-going
-
-jobs:
-  allow_failures:
-    - php: "nightly"
 
 # Hack to make things work again - we can not use a shallow repository.
 git:
