@@ -1,15 +1,23 @@
+dist: xenial
+
+addons:
+  apt:
+    packages:
+      - ant-optional
+
 language: php
 
 php:
+  - "7.4"
+  - "7.3"
   - "7.2"
   - "7.1"
-  - "7.0"
   - "5.6"
-  - "5.5"
-  - "5.4"
-  - "nightly"
 
 sudo: false
+
+before_install:
+  - echo "memory_limit=-1" >> ~/.phpenv/versions/$(phpenv version-name)/etc/conf.d/travis.ini
 
 install:
   - travis_retry composer self-update && composer --version
@@ -20,3 +28,7 @@ script: ant -keep-going
 # Hack to make things work again - we can not use a shallow repository.
 git:
   depth: 2147483647
+
+cache:
+  directories:
+    - vendor

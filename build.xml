@@ -8,6 +8,7 @@
 -->
 <project name="All task dependencies for PHP code quality project" default="build">
     <import file="vendor/phpcq/phpcq/phpcq.main.xml"/>
+    <target name="phpspec" />
 
     <!-- as we are a meta package, we clean the base tasks due to not having any php files etc to scan. -->
 
